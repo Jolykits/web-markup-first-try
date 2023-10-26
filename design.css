@@ -56,9 +56,10 @@ nav section {
     justify-content: space-between;
 }
 
-ul.shopping-places,
-ul.places-of-interest,
-ul.essential-institutions {
+
+.shopping-places ul,
+.places-of-interest ul,
+.essential-institutions ul {
     background-color: #39a539;
     border-radius: 10px;
 }
