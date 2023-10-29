@@ -4,63 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="css/style_main_page.css">
     <title>Welcome to the Assendelft</title>
 </head>
 <body>
     <header class="header">
         <section class="container">
             <a class="logo">
-                <img class="logo-img" src="images/logo.svg" alt="Logo">  
+                <img class="logo-img" src="img/logo.svg" alt="Logo">  
             </a>
-
-            <h1>Welcome to the Assendelft Newcomer's Guide</h1>
-            <p>Discover Assendelft: Your New Home
+    
+            <section class="box">
+                <h1>Welcome to the Assendelft Newcomer's Guide</h1>
+                <p>Discover Assendelft: Your New Home
                 Welcome to Assendelft, which is part of Zaanstad neighborhood therefore embraces
                 people from all around the world. Sounds too optimistic but infact it has immigrants
                 from such non-western countries like Turkey, Surinam, Morocco and the Netherlands
                 Antilles and Aruba. If you are considering making Assendelft your new home, 
-                this website is here to provide you with the essential information you need.</p>    
+                this website is here to provide you with the essential information you need.</p>   
+            </section> 
+    
+            
         </section>  
     </header>
-
     <nav>
         <h1>Navigation</h1>
-        <h1>Choose a category to find the services you need</h1>
+        <h1 class="choose">Choose a category to find the services you need</h1>
+
+
         <section>
-            <div class="Shopping places">
+            <div class="shopping-places">
                 <h2>Shopping places</h2>
-                <ul class="Shopping places">
+                <ul>
                     <li>Shops</li>
                     <li>Supermarkets</li>
                     <li>Convenience Stores</li>
+                    <a href="detail_page1.html">See more >></a>
                 </ul>
             </div>
 
-            <div class="Places of Interest">
+            <div class="places-of-interest">
                 <h2>Places of Interest</h2>
-                <ul class="Places of Interest">
+                <ul>
                     <li>Parks and Recreation Areas</li>
                     <li>Restaurants and Cafes</li>
                     <li>Cultural Events</li>
+                    <a href="detail_page2.html">See more >></a>
                 </ul>
             </div>
 
-            <div class="Essential institutions">
+            <div class="essential-institutions">
                 <h2>Essential institutions</h2>
-                <ul class="Essential institutions">
+                <ul>
                     <li>Hospitals</li>
                     <li>Police Stations</li>
                     <li>Schools</li>
+                    <a href="detail_page3.html">See more >></a>
                 </ul>
             </div>
         </section>
     </nav>
 
+    <!-- Contact Section -->
+    <section class="contact">
+        <h1>Contact me</h1>
+        <p>If you have any questions or need further assistance, feel free to reach out to us. We're here to help!</p>
+
+        <!-- Embed Google Form -->
+        <iframe src="https://forms.gle/vRMfc3f31ap9StXFA" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    
+    </section>
+    <div class="scroll-box"></div>
 
     <footer>
         <p>&copy; 2023 My first project Alex Lisovenko. All rights reserved.</p>
     </footer>
-     
+    
 </body>
 </html>
